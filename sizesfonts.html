@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sizes & Fonts</title>
+        <style>
+            #specific {
+                font-size: 35px;
+                background-color:lightsteelblue;
+            }
+
+            .name {
+                color:magenta;
+                font-weight:bold;
+            }
+
+            div {
+                background-color: yellow;
+                width: 400px;
+                height: 200px;
+                margin: 40px;
+                padding: 30px;
+
+                font-family: Arial, sans-serif;
+                font-size: 28px;
+                font-weight: bold;
+
+                border: 3px dotted blue;
+            }
+
+            table {
+                border: 2px solid black;
+                border-collapse: collapse;
+                width: 50%;
+                font-size: 19px;
+            }
+
+            th, td {
+                border: 1px solid gray; 
+                padding: 4px;
+                text-align: center;
+            }
+
+            th {
+                background-color: lime;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div>
+            Let's improve the table below using CSS
+        </div><br>
+
+        <h2>NBA Players</h2>
+
+        <table>
+            <tr><th>First Name</th><th>Last Name</th><th>Position</th></tr>
+            <tr><td>Lebron</td><td>James</td><td>PF</td></tr>
+            <tr><td>Joel</td><td>Embiid</td><td>C</td></tr>
+            <tr><td>Klay</td><td>Thompson</td><td>SG</td></tr>
+            <tr><td>Damian</td><td>Lillard</td><td>PG</td></tr>
+            <tr><td>Bradley</td><td>Beal</td><td>SG</td></tr>
+            <tr><td>Trae</td><td>Young</td><td>PG</td></tr>
+        </table>
+
+        <div id='specific'>
+            This is an example of using a div ID and a <span class='name'>span + class</span>
+        </div>
+
+    </body>
+
+</html>
